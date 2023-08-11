@@ -1,0 +1,26 @@
+*{
+    margin: 00 ;
+    padding: 00;
+    box-sizing: border-box;
+}
+
+#menu{
+list-style: none;
+padding: 0;
+background-color: black;
+}
+
+#menu li{
+    display: inline;
+}
+
+#menu li a {
+    color: whitesmoke;
+    padding: 30px;
+    display:inline-block;
+    text-decoration:none;
+}
+
+#menu li :hover{
+    background-color:red
+}
